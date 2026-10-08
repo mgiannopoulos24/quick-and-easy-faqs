@@ -4,5 +4,8 @@
 # Dev dependencies
 node_modules/
 
+# Release bundles
+build/
+
 # Other
 prepros.cfg

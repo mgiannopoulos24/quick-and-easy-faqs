@@ -13,9 +13,7 @@
     "stop:wp-env": "wp-env stop",
     "destroy:wp-env": "wp-env destroy",
     "shell:wp-env": "wp-env run cli /bin/bash",
-    "lint": "./vendor/bin/phpcs --standard=phpcs.xml .",
-    "lint:fix": "./vendor/bin/phpcbf --standard=phpcs.xml .",
-    "bundle": "mkdir -p build && bunx bestzip build/quick-and-easy-faqs.zip cooked-pro.php LICENSE.txt readme.txt wpml-config.xml assets/ includes/ languages/ license/ modules/ templates/ uninstall.php"
+    "bundle": "rm -rf build && mkdir -p build && bunx bestzip build/quick-and-easy-faqs.zip quick-and-easy-faqs.php index.php LICENSE.txt README.txt wpml-config.xml admin/ frontend/ icons/ includes/ languages/"
   },
   "devDependencies": {
     "@wordpress/env": "^11.17.0",
