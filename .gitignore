@@ -1,2 +1,8 @@
-prepros.cfg
+# MacOS
 .DS_Store
+
+# Dev dependencies
+node_modules/
+
+# Other
+prepros.cfg
