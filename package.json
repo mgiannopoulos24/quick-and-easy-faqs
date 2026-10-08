@@ -13,7 +13,7 @@
     "stop:wp-env": "wp-env stop",
     "destroy:wp-env": "wp-env destroy",
     "shell:wp-env": "wp-env run cli /bin/bash",
-    "bundle": "rm -rf build && mkdir -p build && bunx bestzip build/quick-and-easy-faqs.zip quick-and-easy-faqs.php index.php LICENSE.txt README.txt wpml-config.xml admin/ frontend/ icons/ includes/ languages/"
+    "bundle": "mkdir -p build && bunx bestzip build/quick-and-easy-faqs.zip quick-and-easy-faqs.php index.php LICENSE.txt README.txt wpml-config.xml admin/ frontend/ icons/ includes/ languages/"
   },
   "devDependencies": {
     "@wordpress/env": "^11.17.0",
